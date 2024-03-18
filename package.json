@@ -1,0 +1,61 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
+  },
+  "scripts": {
+    "build": "tsup server.ts",
+    "dev": "ts-node server.ts",
+    "start": "tsup server.ts && node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/cors": "^2.8.17",
+    "@types/got": "^9.6.12",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/mime-types": "^2.1.4",
+    "@types/multer": "^1.4.9",
+    "@types/pdf-parse": "^1.1.4",
+    "prisma": "^5.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.4",
+    "@types/express": "^4.17.20",
+    "@types/mysql": "^2.15.23",
+    "@types/node": "^20.8.7",
+    "@types/nodemailer": "^6.4.13",
+    "@types/sharp": "^0.32.0",
+    "axios": "^1.6.2",
+    "basic-ftp": "^5.0.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "file-type": "^19.0.0",
+    "got": "^14.2.0",
+    "image-type": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.2",
+    "nodemailer": "^6.9.7",
+    "pdf-parse": "^1.1.1",
+    "pdf2pic": "^3.1.1",
+    "read-chunk": "^4.0.3",
+    "remove-accents": "^0.5.0",
+    "sequelize": "^6.35.2",
+    "sequelize-cli": "^6.6.2",
+    "sharp": "^0.32.6",
+    "ts-node": "^10.9.2",
+    "tsup": "^7.2.0",
+    "tsx": "^4.7.0"
+  }
+}
